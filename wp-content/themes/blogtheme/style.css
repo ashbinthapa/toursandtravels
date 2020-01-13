@@ -899,10 +899,6 @@ object {
 custom css
 
 */
-body {
-    background: #54b1f3;
-}
-/*Global css starts*/
 a {
     color: #000000;
     text-decoration: none;
@@ -983,6 +979,12 @@ ul#menu-menu a {
 .title-image-wrapper:hover .news-title-wrapper {
     opacity: 1;
 }
+
+.image-wrapper img {
+    height: 260px;
+}
+
+
 /*widget css ends*/
 
 

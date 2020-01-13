@@ -26,12 +26,13 @@
 </div>
 
 <div class="main-widget-wrapper">
-	<?php
-	echo '<div class="esn-fixed-width-wrapper">';
+	
+	<div class="esn-fixed-width-wrapper">
+		<?php
 		if( is_active_sidebar( 'home-page-sidebar-1' ) ){
 			dynamic_sidebar( 'home-page-sidebar-1' );
-		}
-	echo '</div>';
-echo '</div>';
-get_footer();
+		}?>
+	</div>
+</div>
+<?php get_footer();
 ?>

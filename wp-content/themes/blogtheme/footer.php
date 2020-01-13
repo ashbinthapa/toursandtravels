@@ -1,21 +1,21 @@
-<?php 
+	
+	</div> <!-- #content -->
+	</div> <!-- .body-wrapper -->
 
-
-	echo '</div>';//<!-- #content -->
-	echo '</div>';//<!-- .body-wrapper -->
-
-	echo '<footer id="colophon" class="site-footer">';
-		echo '<div class="all-fixed-width-wrapper">';
-			echo '<div class="footer-wrapper">';
+	<footer id="colophon" class="site-footer">
+		<div class="all-fixed-width-wrapper">
+			<div class="footer-wrapper">
+				<?php
 				if( is_active_sidebar( 'footer-area' ) ){
 					dynamic_sidebar( 'footer-area' );
 				}
-			echo '</div>';
-		echo '</div>';
-	echo '</footer>';//<!-- #colophon -->
-echo '</div>';//<!-- #page -->
+				?>
+			</div>
+		</div>
+	</footer> <!-- #colophon -->
+</div><!-- #page -->
 
-wp_footer(); ?>
+<?php wp_footer(); ?>
 
 </body>
 </html>

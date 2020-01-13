@@ -118,8 +118,9 @@ add_action('widgets_init', 'toursandtravels_widgets_init');
 /**
  * Registering widgets
  */
-require get_template_directory() . '/widgets/tours-and-travels-custom-widget.php';
+//require get_template_directory() . '/widgets/tours-and-travels-custom-widget.php';
 require get_template_directory() . '/widgets/video-upload-widget.php';
+require get_template_directory() . '/widgets/tours-and-travels-custom-widget-based-html.php';
 
 
 

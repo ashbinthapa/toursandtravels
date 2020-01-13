@@ -22,13 +22,14 @@
 <div id="secondary" class="remaining-content-area">
 	<main id="s-main" class="site-main-sidebar">
 		<div class="main-widget-wrapper">
-			<?php
-			echo '<div class="esn-fixed-width-wrapper">';
+			<div class="esn-fixed-width-wrapper">
+				<?php
 				if( is_active_sidebar( 'page-sidebar-1' ) ){
 					dynamic_sidebar( 'page-sidebar-1' );
 				}
-			echo '</div>';
-		echo '</div>';?>
+				?>
+			</div>
+		</div>
 	</main><!-- #s-main -->
 </div><!-- #secondary -->
 <?php
